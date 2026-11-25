@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>seneaL_UI_GameUpdatePatcher</AssemblyName>
+    <LangVersion>7.3</LangVersion>
+    <AutomaticallyUseReferenceAssemblyPackages>false</AutomaticallyUseReferenceAssemblyPackages>
+    <ValheimDevPath Condition="'$(ValheimDevPath)' == ''">S:\Valheim-Modding\PoVPlus-Dev</ValheimDevPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(ValheimDevPath)\BepInEx\core\BepInEx.dll" Private="false" />
+    <Reference Include="$(ValheimDevPath)\BepInEx\core\Mono.Cecil.dll" Private="false" />
+  </ItemGroup>
+</Project>

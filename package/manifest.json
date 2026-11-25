@@ -1,0 +1,10 @@
+{
+  "name": "SeneaL_UI_Game_Update_Patcher",
+  "description": "Makes SeneaL UI 1.2.8 work on Valheim 1.0.30: the pause menu opens again and the F2 statistics panel works. A small preloader patcher; unofficial.",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2202",
+    "seneaL-SeneaL_UI-1.2.8"
+  ]
+}
