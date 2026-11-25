@@ -21,8 +21,6 @@ does nothing, and it says which in the log (`[Info :SeneaL UI Game Update Patche
 
 ## What it does not do
 
-- Valheim 1.0.30 added a performance panel behind a second press of F2. SeneaL UI replaces the F2 panel with its own,
-  so that panel is not reachable while SeneaL UI is installed.
 - It fixes SeneaL UI only. Other mods broken by the game update need their own updates.
 
 ## Checked
