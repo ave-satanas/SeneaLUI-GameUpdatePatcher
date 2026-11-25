@@ -38,6 +38,7 @@ client that runs SeneaL UI; a server without SeneaL UI's interface does not need
 
 - Thunderstore: https://thunderstore.io/c/valheim/p/SatanicPanic/SeneaL_UI_Game_Update_Patcher/
 - Hexium: https://valheim.hexium.gg/mods/SatanicPanic/SeneaL_UI_Game_Update_Patcher
+- Nexus Mods: https://www.nexusmods.com/valheim/mods/5022
 
 ## Source and building
 
