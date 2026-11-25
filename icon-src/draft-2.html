@@ -1,0 +1,55 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: Forum; src: url("file:///S:/Valheim-Modding/Decompiled-Vault/SeneaL_UI-1.2.8/SeneaLUI.Fonts.Forum-Regular.ttf"); }
+html, body { margin: 0; background: transparent; }
+svg { display: block; }
+</style></head>
+<body>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9A660"/><stop offset=".5" stop-color="#8E7240"/><stop offset="1" stop-color="#B8954F"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26211B"/><stop offset="1" stop-color="#16120F"/>
+    </linearGradient>
+    <pattern id="grain" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="none"/><rect width="2" height="10" fill="#ffffff" opacity=".045"/>
+    </pattern>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4DA97"/><stop offset=".55" stop-color="#E2BE70"/><stop offset="1" stop-color="#B98F48"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D9B76D" stop-opacity="0"/><stop offset=".25" stop-color="#D9B76D"/>
+      <stop offset=".75" stop-color="#D9B76D"/><stop offset="1" stop-color="#D9B76D" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+    <clipPath id="plateClip"><rect x="32" y="32" width="960" height="960" rx="116"/></clipPath>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="116" fill="url(#plate)"/>
+  <rect x="32" y="32" width="960" height="960" rx="116" fill="url(#grain)" clip-path="url(#plateClip)"/>
+  <rect x="32" y="32" width="960" height="960" rx="116" fill="none" stroke="url(#rim)" stroke-width="11"/>
+  <rect x="66" y="66" width="892" height="892" rx="90" fill="none" stroke="#D9B76D" stroke-opacity=".28" stroke-width="4"/>
+  <g filter="url(#shadow)">
+    <g transform="rotate(45 470 440)">
+      <rect x="436" y="330" width="68" height="330" rx="34" fill="url(#gold)" stroke="#5E4419" stroke-opacity=".5" stroke-width="5"/>
+      <circle cx="470" cy="286" r="104" fill="url(#gold)" stroke="#5E4419" stroke-opacity=".5" stroke-width="5"/>
+      <rect x="432" y="160" width="76" height="140" rx="14" fill="#211C17"/>
+      <circle cx="470" cy="616" r="15" fill="#211C17"/>
+    </g>
+    <g fill="none" stroke="url(#gold)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="586,560 676,470 766,560"/>
+      <polyline points="586,668 676,578 766,668"/>
+    </g>
+  </g>
+  <rect x="190" y="756" width="644" height="6" fill="url(#line)"/>
+  <rect x="404" y="745" width="28" height="28" transform="rotate(45 418 759)" fill="#E6C67C"/>
+  <rect x="490" y="737" width="44" height="44" transform="rotate(45 512 759)" fill="#1C1814" stroke="#E6C67C" stroke-width="7"/>
+  <rect x="592" y="745" width="28" height="28" transform="rotate(45 606 759)" fill="#E6C67C"/>
+  <text x="512" y="905" text-anchor="middle" font-family="Forum" font-size="118" letter-spacing="14"
+        fill="url(#gold)" stroke="#E2BE70" stroke-width="5" stroke-linejoin="round" filter="url(#shadow)">PATCH</text>
+</svg>
+</body></html>
